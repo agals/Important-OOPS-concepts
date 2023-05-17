@@ -1,0 +1,5 @@
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to inherit or acquire the properties and behaviors (methods and attributes) of another class. 
+The class from which the properties and behaviors are inherited is called the "parent class".
+while the class that inherits them is known as the "child class".
+When a child class inherits from a parent class, it automatically gains access to all the public and protected members (methods and attributes) of the parent class.
+This means that the child class can use and override these inherited members, as well as add new members of its own.
