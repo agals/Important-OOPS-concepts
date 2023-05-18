@@ -1,0 +1,18 @@
+A stack is an abstract data type that represents a collection of elements with a particular behavior known as the Last-In-First-Out (LIFO) principle. 
+In a stack, elements are added and removed from only one end called the "top" of the stack.
+
+The stack operates based on two fundamental operations:
+
+Push: This operation adds an element to the top of the stack. 
+The new element becomes the most recently added item and is placed above all the other elements.
+
+Pop: This operation removes and returns the topmost element from the stack.
+The element that was added most recently is the first one to be removed.
+
+Additional operations can include:
+Peek/Top: This operation returns the value of the topmost element without removing it from the stack.
+
+IsEmpty: This operation checks if the stack is empty, i.e., it contains no elements.
+
+Stacks can be implemented using various data structures, such as arrays or linked lists. 
+The underlying data structure determines the efficiency of the stack operations.
