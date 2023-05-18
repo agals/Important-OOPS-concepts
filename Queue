@@ -1,0 +1,16 @@
+A queue is an abstract data type that represents a collection of elements with a particular behavior known as the First-In-First-Out (FIFO) principle. 
+In a queue, elements are added to the rear or end of the queue, and they are removed from the front or beginning of the queue.
+
+In object-oriented programming (OOP), a queue can be implemented using a class that encapsulates the necessary data and operations. 
+The class typically includes the following operations:
+
+Enqueue: This operation adds an element to the rear of the queue.
+
+Dequeue: This operation removes and returns the element from the front of the queue.
+
+Peek/Front: This operation returns the value of the element at the front of the queue without removing it.
+
+IsEmpty: This operation checks if the queue is empty, i.e., it contains no elements.
+
+The choice of the underlying data structure for implementing a queue class can vary, such as using a linked list, array, or other data structures. 
+The implementation details determine the efficiency of queue operations.
