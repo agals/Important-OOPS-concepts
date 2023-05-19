@@ -3,3 +3,35 @@ The class from which the properties and behaviors are inherited is called the "p
 while the class that inherits them is known as the "child class".
 When a child class inherits from a parent class, it automatically gains access to all the public and protected members (methods and attributes) of the parent class.
 This means that the child class can use and override these inherited members, as well as add new members of its own.
+
+Types of Inheritance:
+
+1.Single Inheritance: 
+   In single inheritance, a class inherits from a single parent class. 
+   The child class extends the functionality of the parent class by adding its own methods and attributes. 
+   This is the most basic form of inheritance.
+
+2.Multiple Inheritance: 
+  Multiple inheritance occurs when a class inherits from two or more parent classes. 
+  The child class combines the attributes and behaviors of all the parent classes. 
+  However, multiple inheritance can introduce complexity and potential conflicts if there are overlapping methods or attributes among the parent classes.
+
+3.Multilevel Inheritance: 
+In multilevel inheritance, a class inherits from another class, which in turn inherits from another class. 
+This forms a parent-child relationship chain. Each derived class extends the functionality of its immediate parent class, and the inheritance can be extended to multiple levels.
+
+4.Hierarchical Inheritance:
+  Hierarchical inheritance involves multiple derived classes inheriting from a single parent class. 
+  This means that there is a common parent class from which multiple child classes inherit. Each child class can have its own specialized features in addition to the common features inherited from the parent class.
+
+5.Hybrid Inheritance: 
+  Hybrid inheritance is a combination of multiple inheritance and multilevel inheritance. 
+  It involves inheriting from multiple parent classes, including both single and multiple inheritance relationships.
+
+
+
+
+
+
+
+
